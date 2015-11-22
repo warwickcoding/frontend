@@ -1,3 +1,4 @@
 .DS_Store
 *.key
 session_*/images
+session_*/.DS_Store
