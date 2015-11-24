@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>warwickCoding</title>
+    <style>
+      h1, h2 {
+      color: red;
+      }
+      ul ul li {
+      color: red;
+      }
+      p strong, p em {
+      color: red;
+      }
+      table td {
+      color: red;
+      }
+      form label {
+      color: blue;
+      }
+      .time {
+      color: blue;
+      }
+      #email {
+      color: red;
+      }
+      #facebook {
+      color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- INSTRUCTIONs -->
+    <!-- INSERT warwickCoding Logo here -->
+    <!-- Remove all <br> -->
+    <!-- Move the CSS into a separate file. -->
+    <!-- Change the css into something that looks more visually appealing  -->
+
+    <h1>About</h1>
+
+    <p>warwickCoding is an initiative that wants to make coding <strong>less</strong> intimidating for all students at the University of Warwick. We want to do it through <em>practical projects and workshops</em> that will gather motivated and creative people around their big ideas, while working towards building a valuable skill set.
+    </p>
+
+    <h2>Classes Schedule</h2>
+    <table border="1">
+     <thead>
+      <tr>
+       <th>Day</th>
+       <th>Time</th>
+       <th>Course</th>
+      </tr>
+     </thead>
+     <tbody>
+      <tr>
+       <td class="day">Wednesday</td>
+       <td class="time">15:00 - 17:00</td>
+       <td>Frontend</td>
+      </tr>
+      <tr>
+        <td class="day">Friday</td>
+        <td class="time">16:00 - 18:00</td>
+        <td>Android</td>
+      </tr>
+     </tbody>
+    </table>
+
+    <h2>Sign Up!</h2>
+    <form action="mailto:pamela.fox@gmail.com" enctype="text/plain" method="post">
+      <label>Name: <input class="required" name="name" type="text"></label>
+      <br>
+      <label>Email: <input class="required" name="email" type="email"></label>
+      <br>
+      <label>Location:
+        <select name="course">
+          <option value="and">Android</option>
+          <option value="frt">Frontend</option>
+          <option value="both">Both</option>
+        </select></label>
+      <br>
+      <label>Gender:
+        <input type="radio" name="gender">Female
+        <input type="radio" name="gender">Male
+      </label>
+      <br>
+      <label>Previous Coding Experience:
+      <br>
+      <textarea name="experience"></textarea>
+      </label>
+      <br>
+      <button type="submit">Sign Up</button>
+    </form>
+
+    <br><br>
+
+    <a id="email" href="mailto:zaid@warwickcoding.com">Email</a> | <a id="facebook" href="https://www.facebook.com/WarwickCoding/">Facebook</a>
+  </body>
+</html>
