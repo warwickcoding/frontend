@@ -3,7 +3,7 @@
 Course Directory
 ----------------
 
-- [Session 1][/session_1]
+- [Session 1][1]
 - Session 2
 - Session 3
 - Session 4
@@ -11,3 +11,5 @@ Course Directory
 - Session 6
 - Session 7
 - Session 8
+
+[1]: /session_1
