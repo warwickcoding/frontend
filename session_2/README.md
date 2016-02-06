@@ -3,10 +3,12 @@
 **Please read through both this document and the session pdf**
 
 Session outline
-- Recap from session 1
-- Introduction to the IDE
-- Anatomy of an HTML element
-- Different Types of Elements
+- [Recap from session 1][1]
+- [Introduction to the IDE][2]
+- [Anatomy of an HTML element][3]
+- [Different Types of Elements][4]
+- [Further Reading][5]
+- [Exercises][6]
 
 
 
@@ -17,9 +19,10 @@ In the previous session we talked about the history of the web and how HTML and 
 For the final part of the session, we worked on 3 exercises from thimble.mozilla.com to hit the ground running and start coding.
 
 
+
 Introduction to the IDE
 -----------------------
-IDE stands for Integrated Development Environment. For this course we will be using the one provided by [Koding][1].
+IDE stands for Integrated Development Environment. For this course we will be using the one provided by [Koding][7].
 
 An IDE has 3 main parts:
 - Terminal
@@ -28,9 +31,9 @@ An IDE has 3 main parts:
 
 ![Alt text](../images/session_2/frontend_session_2-1.png)
 
-For this course, we will be using the file system and the text editor extensively. The file system is similar to any you have already encountered, giving you a graphical view of all your files and folders. 
+For this course, we will be using the file system and the text editor extensively. The file system is similar to any you have already encountered, giving you a graphical view of all your files and folders.
 
-On the other end, we have the text editor. The editor allows you to write your code in plain text rather that rich text format (RTF) like some other tools do (MS Word, Pages, etc...). There are many different types of text editors available, such as Atom, Sublime Text, notepad++, and vim. For simplicity, the editor within Koding will suffice for the purpose of this course. 
+On the other end, we have the text editor. The editor allows you to write your code in plain text rather that rich text format (RTF) like some other tools do (MS Word, Pages, etc...). There are many different types of text editors available, such as Atom, Sublime Text, notepad++, and vim. For simplicity, the editor within Koding will suffice for the purpose of this course.
 
 The main thing that we need from a text editor at this stage is to allow syntax highlighting. An example of this would be when the text editor knows that you are working on an HTML file (from the `.html` extension at the end of the filename) and then colours the code accordingly.
 
@@ -59,6 +62,7 @@ Versus
 From the above examples, we can see that code block 1 does not have the 'highlighting' present in code block 2.
 
 
+
 Anatomy of an HTML element
 ----------------------
 
@@ -78,11 +82,13 @@ An element on the other hand, is the collection of tags, attributes, and content
 - Some elements don't have closing tags, such as `<br>` and  `<img>`. For
 - Some elements do not require content to live in between the closing and opening tag. *We will take a look at some of them when we learn CSS*.
 
+
+
 Different Types of Elements
 ---------------------------
 There are many different HTML elements, and each one has its own usage. Some may overlap in functionality and others may be considered no useful depending on the job at hand.
 
-For a full and extensive list of these elements, please see [MDN][4]. 
+For a full and extensive list of these elements, please see [MDN][8].
 
 In this Session, we will be working primarily with the following elements:
 - Headings
@@ -92,7 +98,7 @@ In this Session, we will be working primarily with the following elements:
 - Images
 - Anchors
 
-Of course, we have seen different elements in the HTML documents outside `<body>`, such as `<html>`, `<head>`, `<title>`, `<meta>` etc... 
+Of course, we have seen different elements in the HTML documents outside `<body>`, such as `<html>`, `<head>`, `<title>`, `<meta>` etc...
 
 ```
 <!doctype html>
@@ -204,13 +210,16 @@ So let's understand what is happening here. We have one tag, an opening tag and 
 ###Anchors
 We have seen anchors previously in the example that explained the anatomy of an HTML element. An anchor defines a hyperlink to a location on the same page or any other page on the Web. It's most famous attribute is the `href`, which indicates the link target through a URL.
 
+
+
 Further Reading
 ---------------
-- [MDN Documentation on HTML][5]
-- [Full list of all elements][6]
-- [Full list of all attributes][7]
-- [Tag vs Element][2]
-- [Elements, Tags & Attributes][3]
+- [MDN Documentation on HTML][9]
+- [Full list of all elements][10]
+- [Full list of all attributes][11]
+- [Tag vs Element][12]
+- [Elements, Tags & Attributes][13]
+
 
 
 Exercises
@@ -230,11 +239,16 @@ Exercises
 
 ![Alt text](../images/session_2/frontend_session_2-7.png)
 
-
-  [1]: http://www.koding.com
-  [2]: http://htmldog.com/guides/html/beginner/tags/
-  [3]: http://csswizardry.com/2011/01/html-elements-tags-and-attributes
-  [4]: https://developer.mozilla.org/en-US/docs/Web/HTML/Element
-  [5]: https://developer.mozilla.org/en-US/docs/Web/HTML
-  [6]: https://developer.mozilla.org/en-US/docs/Web/HTML/Element
-  [7]: https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
+  [1]: https://github.com/warwickcoding/frontend/tree/master/session_2#recap
+  [2]: https://github.com/warwickcoding/frontend/tree/master/session_2#introduction-to-the-ide
+  [3]: https://github.com/warwickcoding/frontend/tree/master/session_2#anatomy-of-an-html-element
+  [4]: https://github.com/warwickcoding/frontend/tree/master/session_2#different-types-of-elements
+  [5]: https://github.com/warwickcoding/frontend/tree/master/session_2#further-reading
+  [6]: https://github.com/warwickcoding/frontend/tree/master/session_2#exercises
+  [7]: http://www.koding.com
+  [8]: https://developer.mozilla.org/en-US/docs/Web/HTML/Element
+  [9]: https://developer.mozilla.org/en-US/docs/Web/HTML
+  [10]: https://developer.mozilla.org/en-US/docs/Web/HTML/Element
+  [11]: https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
+  [12]: http://htmldog.com/guides/html/beginner/tags/
+  [13]: http://csswizardry.com/2011/01/html-elements-tags-and-attributes
