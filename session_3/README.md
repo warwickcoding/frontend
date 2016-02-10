@@ -21,7 +21,7 @@ Exercises
 
 It should look similar to the following screenshot. But expand it so that it shows your full schedule
 
-![Alt text](./frontend_session_3-1.png)
+![Alt text](../images/session_3/frontend_session_3-1.png)
 
 ###Exercise 2
 Create a form that has the following:
