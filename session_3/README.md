@@ -1,6 +1,6 @@
 ## Frontend Course Session 3
 
-*Please read through both this document and the session pdf*
+**Please read through both this document and the session pdf**
 
 Session Outline:
 - Recap from session 2
