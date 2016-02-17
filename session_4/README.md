@@ -19,6 +19,7 @@ Please read the following instructions carefully. Remember, you have to be on Ko
 Another reminder is to create all your files under the "Web" directory.
 
 ###Exercise 1
+[SOLUTION](http://codepen.io/zlahham/pen/yerEgE)
 
 For this exercise, you will have to do the following:
 - In your Koding editor, create a new folder and call it `session-4`
@@ -35,6 +36,7 @@ You are expected to add a minimum of **6** new rules to the `styles.css` file an
 
 
 ###Exercise 2
+[SOLUTION](http://codepen.io/zlahham/pen/bEJKWo)
 
 For this exercise, you will have to do the following:
 
