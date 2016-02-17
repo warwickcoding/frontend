@@ -14,7 +14,8 @@ Exercises
 ---------
 
 ###Exercise 1
-- Create a table lays out your schedule for Wednesdays:
+[SOLUTION](http://codepen.io/zlahham/pen/KVYROy)
+- Create a table that lays out your schedule for Wednesdays:
     - A “Time Slot” column
     - A  “Content” column
 - Find out how to add a border to a table
@@ -24,6 +25,7 @@ It should look similar to the following screenshot. But expand it so that it sho
 ![Alt text](../images/session_3/frontend_session_3-1.png)
 
 ###Exercise 2
+[SOLUTION](http://codepen.io/zlahham/pen/PZgaYz)
 Create a form that has the following:
 - It asks you for you first name, last name, age
 - Asks for your email, telephone number, address
@@ -31,6 +33,7 @@ Create a form that has the following:
 - Group these inputs accordingly
 
 ###Exercise 3
+[SOLUTION](http://codepen.io/zlahham/pen/GoLGjj)
 Create a form that has the following features:
 
 - A label to distinguish it
