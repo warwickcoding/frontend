@@ -5,7 +5,9 @@
 Session Outline:
 - Recap from Session 4
 - Block vs Inline
-- Box Model *Read more [here](https://developer.mozilla.org/en/docs/Web/CSS/border-style)*
+- Box Model, *Read more [here](https://developer.mozilla.org/en/docs/Web/CSS/border-style)*
+- Positioning
+- Floats and clears
 - Exercises
 
 Exercises
