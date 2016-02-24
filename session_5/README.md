@@ -41,4 +41,4 @@ Please read more on the CSS box model [here](https://developer.mozilla.org/en-US
 - Add a `<div>` for the footer links. Add styles to that div so that the links are centered and it has appropriate border, padding, and margin.
 - Add a `<div>` for the locations list. Add styles to that div so that it floats to the right and has appropriate border, padding, and color.
 
-![screenshot](..images/session_5/frontend_session_5-3.png)
+![screenshot](../images/session_5/frontend_session_5-3.png)
