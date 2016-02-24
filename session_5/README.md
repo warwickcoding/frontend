@@ -17,12 +17,17 @@ Please read the following instructions carefully. Remember, you have to be on Ko
 Another reminder is to create all your files under the "Web" directory.
 
 ### Exercise 1
+
 - Find the `index.html` file inside the `exercise-1` folder.
 - Create a `<div>` for the paragraphs and style it according to the following screenshot
 - Create a `<span>` for the first sentence of each paragraph and style it appropriately
 - Resize the image to match the width of the div
 
 ![screenshot](../images/session_5/frontend_session_5-1.png)
+
+**SOLUTION**:
+<p data-height="268" data-theme-id="0" data-slug-hash="GoVQja" data-default-tab="result" data-user="zlahham" data-preview="true" class='codepen'>See the Pen <a href='http://codepen.io/zlahham/pen/GoVQja/'>warwickCoding Frontend | Session 5 - Exercise 1</a> by Zaid Lahham (<a href='http://codepen.io/zlahham'>@zlahham</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+<script async src="//assets.codepen.io/assets/embed/ei.js"></script>
 
 ### Exercise 2
 Please read more on the CSS box model [here](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Introduction_to_the_CSS_box_model)
@@ -36,6 +41,10 @@ Please read more on the CSS box model [here](https://developer.mozilla.org/en-US
 
 ![screenshot](../images/session_5/frontend_session_5-2.png)
 
+**SOLUTION**:
+<p data-height="268" data-theme-id="0" data-slug-hash="XXvoMm" data-default-tab="result" data-user="zlahham" data-preview="true" class='codepen'>See the Pen <a href='http://codepen.io/zlahham/pen/XXvoMm/'>warwickCodind Frontend | Session 5 - Exercise 2</a> by Zaid Lahham (<a href='http://codepen.io/zlahham'>@zlahham</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+<script async src="//assets.codepen.io/assets/embed/ei.js"></script>
+
 ### Exercise 3
 - Use the `index.html`and `styles.css` that are inside the `exercise-3` folder to generate the following screenshot
 - Add a `<div>` for all of the content. Add styles to that `<div>` so it is centered on the page and has appropriate border and padding.
@@ -44,3 +53,8 @@ Please read more on the CSS box model [here](https://developer.mozilla.org/en-US
 - Add a `<div>` for the locations list. Add styles to that div so that it floats to the right and has appropriate border, padding, and color.
 
 ![screenshot](../images/session_5/frontend_session_5-3.png)
+
+**SOLUTION**:
+
+<p data-height="268" data-theme-id="0" data-slug-hash="YwmBoK" data-default-tab="result" data-user="zlahham" data-preview="true" class='codepen'>See the Pen <a href='http://codepen.io/zlahham/pen/YwmBoK/'>warwickCoding Frontend | Session 5 - Exercise 3</a> by Zaid Lahham (<a href='http://codepen.io/zlahham'>@zlahham</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+<script async src="//assets.codepen.io/assets/embed/ei.js"></script>
