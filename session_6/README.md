@@ -235,11 +235,11 @@ The the way we will approach the CSS in here would be through working on each se
 
 - Before we start with the nav-bar, let's add our favourite font-family to our `body`. To do so, we can go to [Google Fonts](https://www.google.com/fonts) and find a family that we would like to use. Let's say we wanted to go with "Droid Serif", scrolling down to the bottom of its page, we can see a "Add this to your website" area.
 
-![google fonts](../images/session_6/frontend_session_6-7.png)]
+![google fonts](../images/session_6/frontend_session_6-7.png)
 
 - Copy the code that begins with `<link............` into the head section of your HTML.
 
-- Now we have a font family, so let'c add the following to our CSS:
+- Now we have a font family, so let's add the following to our CSS:
 
 ```css
 body {
