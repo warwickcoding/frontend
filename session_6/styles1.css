@@ -38,7 +38,7 @@ body {
 }
 
 .hero p {
-  margin-top: 25px;
+  margin-bottom: 75px;
 }
 
 .places {
@@ -65,7 +65,6 @@ body {
 
 .places-image p {
   display: inline;
-/*   text-align: center; */
 }
 
 .songs {

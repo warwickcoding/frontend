@@ -136,11 +136,12 @@ body {
 
 ![atom 3](../images/session_6/frontend_session_6-4.png)
 
-- On to the `hero` now. Our hero will have welcome visitors and then have a sentence about you. You know the drill, fill in the missing parts and add/remove/modify to your liking.
+- On to the `hero` now. Our hero will have welcome visitors and then have a sentence about you. You know the drill, fill in the missing parts and add/remove/modify to your liking. Add a picture of yourself to the img element in this section.
 
 ```html
     <h1>Welcome to my beautiful website!</h1>
     <p>I'm an student at the University of ------, I am currently learning HTML and CSS. I study (------) and I am also part of the ---- society and I love ----</p>
+    <img src="" alt="">
 ```
 
 - We're now up to the `places` div and this is where we start to add more stuff. We want to ad a sentence about what the pictures resemble and then add 4 picture of places you have been to before, or would like to visit.
@@ -170,6 +171,42 @@ body {
 ```
 
 - By now, we should be getting a better idea about how we will manipulate the images. I'll leave it up to you to choose your images. If you want to use a local file on your computer, remember to have it in the same folder as this project and inside the `src` add the name of that file.
+
+- So, before moving onto the next section, let's try to see how our page looks like so far. Open the folder that these files are in and right click on `index.html` and open it in Chrome/Safari. Make sure to save before you do this.
+
+![scrn](../images/session_6/frontend_session_6-5.png)
+
+- Obviously the images will come in different sizes, so let's just ignore that for now. But overall, our page is almost there in terms of HTML.
+
+- Next. Your favourite songs! Go to Youtube and pick 3 songs, grab each of their embed codes and put all this under the `songs` div.
+
+- Also, you could add a heading to this section as well.
+
+- We'll now add the content of the next section, the resume part. Please fill in the following as you would like it to appear.
+
+```html
+ <h1>My Mini Resume</h1>
+<h2>A few of my achievements:</h2>
+<ul>
+  <li>I have done this</li>
+  <li>I have done that</li>
+  <li>I have done that</li>
+  <li>I have done this</li>
+  <li>I have done that</li>
+</ul>
+```
+
+- Final section, our footer. We want this to have an "Email me" and a tweet me/somethingelse link. Oh, and we want to display your name/alias there as well.
+
+```html
+<p>Your name &copy;</p>
+<p>Email me</p>
+<p>Tweet me</p>
+```
+
+By now, we have finished setting up our HTML page. Let's move on to the CSS
+
+### 3. CSS 
 
 Exercises
 ---------
