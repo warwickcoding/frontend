@@ -7,7 +7,6 @@ body {
 }
 
 .nav-bar {
-  width: max;
   height: 70px;
   background-color: #30A9DE;
 }
@@ -48,10 +47,6 @@ body {
   color: #EFDC05;
 }
 
-.places h1 {
-  /*padding: 50px 0 25px 0;*/
-}
-
 .places-image {
   display: inline;
 }
@@ -75,6 +70,8 @@ body {
 }
 
 .songs iframe {
+  height: 200px;
+  width: 200px;
   margin: 50px;
     border-radius: 10px;
 }

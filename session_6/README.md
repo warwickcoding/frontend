@@ -204,9 +204,163 @@ body {
 <p>Tweet me</p>
 ```
 
-By now, we have finished setting up our HTML page. Let's move on to the CSS
+By now, we have finished setting up our HTML page, you'll find that the following screenshot will look similar to how your HTML is at this point. Let's move on to the CSS
 
-### 3. CSS 
+![html no css](../images/session_6/frontend_session_6-6.png)]
+
+### 3. CSS
+
+The the way we will approach the CSS in here would be through working on each section and then when we are done, we'll move on to the next.
+
+- Before we start with the nav-bar, let's add our favourite font-family to our `body`. To do so, we can go to [Google Fonts](https://www.google.com/fonts) and find a family that we would like to use. Let's say we wanted to go with "Droid Serif", scrolling down to the bottom of its page, we can see a "Add this to your website" area.
+
+![google fonts](../images/session_6/frontend_session_6-7.png)]
+
+- Copy the code that begins with `<link............` into the head section of your HTML.
+
+- Now we have a font family, so let'c add the following to our CSS:
+
+```css
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Put the name of the font you just grabbed in here";
+}
+```
+
+- Moving on to the nav-bar, we want it to have a certain height and a bg color
+
+```css
+.nav-bar {
+  height: 70px;
+  background-color: #30A9DE;
+}
+```
+
+![nav-bar scrn](../images/session_6/frontend_session_6-8.png)
+
+- Next logical thing to do would be to style the `ul` and `li`.
+
+```css
+.nav-bar ul {
+  float: right;
+  margin: 25px 0;
+}
+
+.nav-bar li {
+  list-style: none;
+  display: inline;
+  padding-right: 30px;
+}
+```
+
+- Now we want to style our name on the right hand side of the nav bar. So we'll be selecting the `p`:
+
+```css
+.nav-bar p {
+  display: inline;
+  float: left;
+  padding-left: 30px;
+  margin: 25px 0;
+}
+```
+
+![nav-bar scrn](../images/session_6/frontend_session_6-9.png)
+
+- Ah, much better. Now lets move to the `hero` div. We want this to have a bg color, centered text, and some margin and padding.
+
+```css
+.hero {
+  padding: 150px 0;
+  background-color: #EFDC05;
+  text-align: center;
+  color: #2b90d9;
+}
+
+.hero p {
+  margin-bottom: 75px;
+}
+```
+
+![hero scrn](../images/frontend_session_6-10.png)
+
+- Looking better. Now the `places`. This section should have a bg color, spacing between the images and each image should have the same dimentions.
+
+```css
+.places {
+  text-align: center;
+  background-color: #E53A40;
+  padding: 70px;
+  color: #EFDC05;
+}
+
+.places-image {
+  display: inline;
+}
+
+.places-image img {
+  width: 300px;
+  height: 300px;
+  margin: 50px;
+  border-radius: 10px;
+}
+
+.places-image p {
+  display: inline;
+}
+```
+
+- A few of the rules inside `places` are purely for styling and it is up to you to include them.
+
+![places scrn](../images/session_6/frontend_session_6-11.png)
+
+- After that, we need to add our `songs` area. This will also have a bg color, centered text and some spacing.
+- We also want to change the width and height of the 3 youtube embedded videos. To do so, please remove these attributes from the HTML individually, and then enter the followinf code into your stylesheet
+
+```css
+.songs {
+  padding: 50px;
+  text-align: center;
+  background-color: #75D701;
+  color: #E53A40;
+}
+
+.songs iframe {
+  height: 200px;
+  width: 200px;
+  margin: 50px;
+  border-radius: 10px;
+}
+```
+
+![songs scrn](../images/session_6/frontend_session_6-12.png)
+
+- Into the `resume` part we go. Here were going to add some colors, spacing and so on:
+
+```css
+.resume {
+  background-color: #D81159;
+  padding: 50px;
+  text-align: center;
+  color: #f9cdad;
+}
+
+.resume li, ul {
+  margin: 0;
+  padding: 0;
+}
+
+.resume li {
+  list-style: none;
+  margin-bottom: 10px;
+}
+```
+
+This get our page to look like this:
+
+![resume scrn](../images/session_6/frontend_session_6-13.png)
+
+- Last, but not least, our footer. Ill leave this up to you, try to play around with the different possibilites. Take inspiration from other footers you come across
 
 Exercises
 ---------
