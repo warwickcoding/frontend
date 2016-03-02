@@ -303,7 +303,7 @@ body {
 }
 ```
 
-![hero scrn](../images/frontend_session_6-10.png)
+![hero scrn](../images/session_6/frontend_session_6-10.png)
 
 - Looking better. Now the `places`. This section should have a bg color, spacing between the images and each image should have the same dimentions.
 
