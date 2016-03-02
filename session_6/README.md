@@ -56,6 +56,11 @@ This tutorial will be broken down into the following parts:
 3. Styling each section individually
 4. Wrapping up and making the final modifications
 
+Read all the steps carefully and don't copy and paste anything. This is the worst thing you could do when you are still learning. The more you type in the code manually , the more comfortable you will be with HTML and CSS.
+
+Also, for the colours, you are free to use the ones that are included in this tutorial, but I do encourage you to play around with some of your own colours. [Adobe Kuler](https://color.adobe.com/) is great for this, you can create your own colour scheme and use it for the rest of the page.
+
+I would recommend that you go through this [article](https://www.keycdn.com/blog/chrome-devtools/) if you want to learn more about the Chrome Developer Tools that we have used to inspect HTML elements in our pages previously.
 ### 1. Deciding on the content.
 We want our page to have a navigation bar, a hero section, a places visited section, favourite songs, a mini resume, and finally a footer.
 
