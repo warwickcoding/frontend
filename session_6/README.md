@@ -26,6 +26,23 @@ The reasoning behind switching to this editor at this point in the course is bas
 
 I'll go through a quick tour after you've downloaded it.
 
+List of useful packages:
+- atom-beautify
+- autoclose-html
+- file-icons
+- emmet
+- pigments
+- color-picker
+
+List of nice syntax themes:
+- batman-syntax
+- seti
+
+If you would like to explore packages, go to Install when you open the Preferences and look around until you find something to your liking.
+
+APM is Atom's built in package manager, it allows you to install packages very easily.
+https://atom.io/packages
+https://atom.io/themes
 
 Tutorial
 --------
