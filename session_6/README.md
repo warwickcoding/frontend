@@ -20,7 +20,11 @@ I hope you enjoy this!
 
 Atom
 ----
+Please visit https://www.atom.io and download this text editor. While you are waiting for the download, go through the website and read more about this editor.
 
+The reasoning behind switching to this editor at this point in the course is based on Koding becoming too slow for now and Atom will be a program that runs on your computers, this is much faster and it's used by developers all of the world. It's community has been growing despite its young age!
+
+I'll go through a quick tour after you've downloaded it.
 
 
 Tutorial
@@ -360,7 +364,17 @@ This get our page to look like this:
 
 ![resume scrn](../images/session_6/frontend_session_6-13.png)
 
-- Last, but not least, our footer. Ill leave this up to you, try to play around with the different possibilites. Take inspiration from other footers you come across
+- Last, but not least, our footer. I'll leave this up to you, try to play around with the different possibilites. Take inspiration from other footers you come across.
 
 Exercises
 ---------
+
+### Exercise 1
+Try to create a replica of this following screenshot:
+
+- For the icons, look into FontAwesome
+- For the images, you can grab it from WIRED's twitter profile
+- For the colours and fonts inspect a similar tweet.
+
+![tweet](../images/session_6/frontend_session_6-14.png)
+
