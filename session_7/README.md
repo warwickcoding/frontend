@@ -40,7 +40,7 @@ Tutorial
 
 During this tutorial we will build a landing page for a fictional hotel, Warwick's Finest Inn. The page should look similar to this:
 
-- insert picture
+- ![final](../images/session_7/frontend_session_23-1.png)
 
 This tutorial will be broken down into the following parts:
 - Setting up the HTML
@@ -398,7 +398,8 @@ Nav Bar
 - We want to continue styling our page, lets try and build a Nav bar to our website.
 
 - This is the container we would be working with:
-```
+
+```html
 <div class="container">
   <div class="row text-center">
     <div class="col-md-12">
@@ -407,12 +408,14 @@ Nav Bar
   </div>
 </div>
 ```
-- I have wrapped the two col-md-6 with a ```container``` class as well.
 
-- One major difference we would like to make in our navigation bar is to remove the grid system. so we need to delete the ```row``` and ```col-md-12```. We did that because we want the size of the nav bar to be determined by the content rather than the grid system.
+- I have wrapped the two col-md-6 with a `container` class as well.
+
+- One major difference we would like to make in our navigation bar is to remove the grid system. So we need to delete the `row` and `col-md-12`. We did that because we want the size of the nav bar to be determined by the content rather than the grid system.
 
 - We need to create unordered list to contain all of our links.
-```
+
+```html
 <div class="container">
       <h1>WarwickInn</h1>
       <ul>
@@ -427,11 +430,11 @@ Nav Bar
 
 ![18](../images/session_7/frontend_session_7-18.png)
 
-- it doesn't quite look like a navbar yet, however lets change our ```h1``` tag to ```a``` tag so we can add a link to our home page later on.
+- It doesn't quite look like a navbar yet, however lets change our `h1` tag to `a` tag so we can add a link to our home page later on.
 
-- lets add the ```navbar-brand``` class to our a tag.
+- lets add the `navbar-brand` class to our a tag.
 
-```
+```html
 <div class="container">
       <a class="navbar-brand" href="" > WarwickInn </a>
       <ul class="">
@@ -444,30 +447,33 @@ Nav Bar
 
 ![19](../images/session_7/frontend_session_7-19.png)
 
-- it looks a bit better but we still have the tabs next to our brand (a tag). in order to fix that Bootstrap has a class that would allow us to edit the unordered list to make it look more like a navbar.
+- It looks a bit better but we still have the tabs next to our brand (a tag). In order to fix that, Bootstrap has a class that would allow us to edit the unordered list to make it look more like a navbar.
 
-- add a class of ```nav``` to our ```ul``` to get the following:
+- add a class of `nav` to our `ul` to get the following:
 
 ![20](../images/session_7/frontend_session_7-20.png)
 
-- We got rid of the bullet points but we still have the links in a list rather on the same line. To do that just like we did with the glyphicon class we need to add another class of ```nav-pills``` to the class of ```nav```
+- We got rid of the bullet points but we still have the links in a list rather on the same line. To do that just like we did with the glyphicon class we need to add another class of `nav-pills` to the class of `nav`
 
 ![21](../images/session_7/frontend_session_7-21.png)
 
-- Our navbar is slowly taking shape, now all we need to do is to push the links to the right. to do that we need to add the class of ```navbar-right``` to our ```ul``` element.
+- Our navbar is slowly taking shape, now all we need to do is to push the links to the right. to do that we need to add the class of `navbar-right` to our `ul` element.
 
 ![22](../images/session_7/frontend_session_7-22.png)
 
-- Great, we are nearly done we just need to give our navbar a little shadow, to do that we add ```navbar``` and ```navbar-default```to our container class.
+- Great, we are nearly done we just need to give our navbar a little shadow, to do that we add `navbar` and `navbar-default`to our container class.
 
 ![23](../images/session_7/frontend_session_7-23.png)
 
-- WOHOO !! It's done, hope you have enjoyed the tutorial and don't forget to go through the exercises.
+- WOOHOO !! It's done, hope you have enjoyed the tutorial and don't forget to go through the exercises.
 
 Exercises
 ---------
+
 1. Create a footer for our website. Check out the Bootstrap documentation to see how to do it.
 
-2. Go to the documentation and try to use as many Bootstrap components as you can.
+2. Go to the documentation and try to add as many Bootstrap components as you can to the Hotel's website.
 
-3. Redo the web page from the previous session using Bootstrap
+3. Redo the web page from the previous session using Bootstrap!
+
+Congrats!!! 🤘
