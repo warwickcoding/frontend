@@ -155,18 +155,18 @@ The `container-fluid` Class
 
 - What if we want part of the elements to stretch across the page?
 
-- The best practice is to use a ``` container-fluid``` class. It would add padding to the elements but still allows it to stretch across the page.
+- The best practice is to use a `container-fluid` class. It would add padding to the elements but still allows it to stretch across the page.
 
-- wrap the ```h3``` elements with a ```div``` that has a ```container-fluid``` class.
+- wrap the `h3` elements with a `div` that has a `container-fluid` class.
 
 - your page should look like this:
 ![4](../images/session_7/frontend_session_7-4.png)
 
-- as you can see the ```h3``` elements now stretch across the page while the top container has margins on both sides.
+- As you can see the `h3` elements now stretch across the page while the top container has margins on both sides.
 
 Grid: columns and rows
 ----------------------
-The structure of our page is divided into rows leaving a lots of unutilised space. The way Bootstrap divides the page is the following:
+The structure of our page is divided into rows leaving a lot of wasted space. The way Bootstrap divides the page is the following:
 
 ![6](../images/session_7/frontend_session_7-6.png)
 
@@ -176,14 +176,14 @@ We would like to change it in a way to look like this:
 
 ![7](../images/session_7/frontend_session_7-7.png)
 
-- In order to vertically structure the page, we need the divide the columns in a way that each row contains 12 columns, confused?
+- In order to vertically structure the page, we need to divide the columns in a way that each row contains 12 columns. A bit confused? It's okay 😊
 
-- Before each element took a whole row of 12 columns now we would like to divide the elements into columns and create the above page.
+- Before each element took a whole row of 12 columns, now we would like to divide the elements into columns and create the above page.
 
-- To do so, we need to use a Bootstrap class called ```col-md-*``` this class allows us to assign a number of columns to a specific element. For example for the second row we have the ```h2``` ,two ```button``` elements and ```img```. How would you divide the columns between the elements ?
+- To do so, we need to use a Bootstrap class called `col-md-*` this class allows us to assign a number of columns to a specific element. For example for the second row we have the `h2`, two `button` elements and `img`. How would you divide the columns between the elements ?
 
 
-```
+```html
 <div class="col-md-6">
   <h2>Warwick's best hotel</h2><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
   <button>Book a viewing</button>
@@ -198,11 +198,10 @@ We would like to change it in a way to look like this:
 - Try to figure out how we would wrap the first and the third rows for it to look like the page above.
 
 - **Notice!** that we need to have a total of 12 in each row.
-- To make life easier, Bootstrap has a ``` row``` class that would add style and make sure elements are on the same row.
+- To make life easier, Bootstrap has a `row` class that would add style and make sure elements are on the same row.
+- Wrap each row with a `row` class:
 
-- Wrap each row with a ```row``` class:
-
-```
+```html
 <!DOCTYPE html>
 <html>
   <head>
@@ -256,58 +255,61 @@ We would like to change it in a way to look like this:
   </body>
 </html>
 ```
+
 - Your page now should look like this:
 
 ![8](../images/session_7/frontend_session_7-8.png)
 
-- **EXTRA** How would you add an empty column between ```h3``` elements ?
+- **EXTRA** How would you add an empty column between `h3` elements ?
 
 Typography
 ----------
 
 Bootstrap has typography classes that we can use the change the font size without having to overwrite the CSS files in Bootstrap.
 
-- we want to give the paragraph after ```h2``` a little bit more weight, in order to do that without overwriting the CSS is to give a class of ```lead``` to the ```<p>``` element
+- We want to give the paragraph after `h2` a little bit more weight, in order to do that without overwriting the CSS is to give a class of `lead` to the `<p>` element
 
--  ```<p class="lead">...</p>```
+- `<p class="lead">...</p>`
 
 - Now our page should look the following:
 
 ![9](../images/session_7/frontend_session_7-9.png)
 
-- Let's try and center the text we have in the paragraphs.
+- Let's try to center the text we have in the paragraphs.
 
-- lets add a ```text-center``` class to each row we have to get this:
+- lets add a `text-center` class to each row we have to get this:
 
 ![10](../images/session_7/frontend_session_7-10.png)
 
-- There are many ```text-*``` classes available in bootstrap, feel free to try a different one.
+- There are many `text-*` classes available in bootstrap, feel free to try a different one.
 
-- Glyphicons are available to use in Bootstrap, glyphicon are treated like fonts so you can change the size of the glaphicon by overwritting the CSS file. (we will do that later)
+- Glyphicons are available to use in Bootstrap, they are treated like fonts so you can change the size of the glyphicon by over writting the CSS file. (we will do that later)
 
-- In order to add glyphicon, we need to add class ```glyphicon``` inside ```<i>``` element.
+- In order to add glyphicon, we need to add class `glyphicon` inside `<i>` element.
 
-- ```<i class="glyphicon"></i>``` by doing that nothing will show up because we didn't specify which icon we want.
+- `<i class="glyphicon"></i>` by doing that nothing will show up because we didn't specify which icon we want.
 
-- lets add a brief case to the book today section
+- To find all the available Glyphicons that are provided by Bootstrap, you can find them under [Components](http://getbootstrap.com/components/)
 
-- ``` <i class="glyphicon glyphicon-briefcase"></i>```
+- Lets add a brief case to the "Book Today" section
 
-- **Notice** that we have added two classes for the same element in order to achieve one thing. This is because by defining ```glyphicon``` we specify the font family and ```glyphicon-briefcase``` specifies the icon.
+- `<i class="glyphicon glyphicon-briefcase"></i>`
+
+- **Notice** that we have added two classes for the same element in order to achieve one thing. This is because by defining `glyphicon` we specify the font family and `glyphicon-briefcase` specifies the icon.
 
 - After adding the icons the page should like this:
 
 ![11](../images/session_7/frontend_session_7-11.png)
 
-- To make the icons larger we will increase the font size as we said that the glyphicons are treated like fonts to do that we need to overwrite the CSS files by adding a tag of ```.feature``` to each row.
+- To make the icons larger we will increase the font size as we said that the glyphicons are treated like fonts to do that we need to overwrite the CSS files by adding a tag of `.feature` to each row.
 
-- let's start by adding a CSS file to our folder, create a CSS file ```main.css``` and link the HTML (Remember?)
+- Let's start by adding a CSS file to our folder, create a CSS file `main.css` and link the HTML (Remember?)
 
-- in our HTML we will add a class of features to the row that contains the ```h3``` tags.
+- In our HTML we will add a class of `feature` to the row that contains the `h3` tags.
 
-- In our CSS we will change the font size of the glyphicons ONLY inside ```.features``` class:
+- In our CSS we will change the font size of the glyphicons ONLY inside `.features` class:
 
-```
+```css
 .features .glyphicon {
   font-size:32px;
 }
@@ -317,7 +319,7 @@ Bootstrap has typography classes that we can use the change the font size withou
 
 ![12](../images/session_7/frontend_session_7-12.png)
 
-- We can try and change the color of the icons. anyi dea how?
+- We can try and change the color of the icons. Any idea how?
 
 - ``` color: red; ``` to your main.css file, to get this:
 
