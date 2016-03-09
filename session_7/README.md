@@ -419,9 +419,9 @@ Nav Bar
 <div class="container">
       <h1>WarwickInn</h1>
       <ul>
-        <li href="">About</li>
-        <li href="">Contact us</li>
-        <li href="">Reviews</li>
+        <li><a href="">About</a></li>
+        <li><a href="">Contact us</a></li>
+        <li><a href="">Reviews</a></li>
       </ul>
 </div>
 ```
