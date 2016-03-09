@@ -321,7 +321,7 @@ Bootstrap has typography classes that we can use the change the font size withou
 
 - We can try and change the color of the icons. Any idea how?
 
-- ``` color: red; ``` to your main.css file, to get this:
+- `color: red;` to your main.css file, to get this:
 
 ![13](../images/session_7/frontend_session_7-13.png)
 
@@ -330,26 +330,25 @@ Bootstrap has typography classes that we can use the change the font size withou
 Buttons and Wells
 -----------------
 
-- We want to continue styling our page, let's start with our lead section. How can we make the two buttons and the container or top to standout ?
+- We want to continue styling our page, let's start with our lead section. How can we make the two buttons and the container standout to the top?
 
-- Bootstrap has something called a ```well``` class which gives a simple inset effect to the entire row.
+- Bootstrap has something called a `well` class which gives a simple inset effect to the entire row.
 
 - Just like this:
 
 ![14](../images/session_7/frontend_session_7-14.png)
 
-- Use inspect to check what did the ```well``` class add. Google how can we make the padding larger without overwritting the CSS.
+- Use inspect to check what did the `well` class add. Google how can we make the padding larger without over writing the CSS.
 
-- ```well-lg``` would give us more padding to our row:
+- `well-lg` would give us more padding to our row:
 
-```
+```html
 <div class="row well well-lg">
   <div class="col-md-6">
     <h2>Warwick's best hotel</h2><p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
     <button>Book a viewing</button>
     <button>Book a room</button>
   </div>
-
 
   <div class="col-md-6">
     <img src=http://i.telegraph.co.uk/multimedia/archive/03033/wasdale-inn-exteri_3033548c.jpg alt="Inn">
@@ -361,16 +360,18 @@ Buttons and Wells
 
  ![15](../images/session_7/frontend_session_7-15.png)
 
- - If we look at the buttons that we have at the moment, they seem like they don't belong to the page and thats because we didn't allow Bootstrap classes for buttons.
+ - If we look at the buttons that we have at the moment, they seem like they don't belong to the page and that's because we didn't allow Bootstrap classes for buttons.
 
  - The HTML for the buttons is:
- ```
+
+ ```html
  <button>Book a viewing</button>
  <button>Book a room</button>
  ```
 
-- Let's add the ```btn``` class to the button element.
-```
+- Let's add the `btn` class to the button element.
+
+```html
 <button class="btn" >Book a viewing</button>
 <button class="btn" >Book a room</button>
 ```
@@ -381,7 +382,7 @@ Buttons and Wells
 
 - How can we change the button size and the color ?
 
-- in order to do that Bootstrap has a ```btn-lg``` for large buttons, ```btn-default``` and ```btn-primary``` for different colors.
+- In order to do that Bootstrap has a `btn-lg` for large buttons, `btn-default` and `btn-primary` for different colors.
 
 - This is how your page should look like after adding these classes to our buttons:
 
