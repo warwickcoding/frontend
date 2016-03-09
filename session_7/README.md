@@ -40,7 +40,7 @@ Tutorial
 
 During this tutorial we will build a landing page for a fictional hotel, Warwick's Finest Inn. The page should look similar to this:
 
-- ![final](../images/session_7/frontend_session_23-1.png)
+- ![final](../images/session_7/frontend_session_7-23.png)
 
 This tutorial will be broken down into the following parts:
 - Setting up the HTML
