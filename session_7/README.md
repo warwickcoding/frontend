@@ -3,7 +3,7 @@
 **Session Navigation:**
 
 | [S1 ](../session_1/README.md) | [S2  ](../session_2/README.md) |[S3  ](../session_3/README.md) |[S4  ](../session_4/README.md) |[S5  ](../session_5/README.md) |[S6  ](../session_6/README.md) |[S7  ](../session_7/README.md) |
-|------------------------------|--------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|
+|-------------------------------|--------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|
 
 Session outline:
 - Bootstrap
@@ -19,36 +19,37 @@ I hope you enjoy this!
 
 Bootstrap
 ---------
+
 In order to build a website we learned that we need 3 main components:
-- HTML: Page Structure
-- CSS: Element Styling
-- JavaScript: Page Behavior (we are not covering JavaScript during this course)
+- **HTML**: Page Structure
+- **CSS**: Element Styling
+- **JavaScript**: Page Behavior (we are not covering JavaScript during this course)
 
 We design the page structure using HTML (what we did in the first 3 sessions) using HTML elements in files such as index.html, then we style the elements using CSS properties in files such as styles.css and if we were to do JavaScript we would have used .js files to add behavior to the page. This process includes a lot of movement between the different files that make out a website. A framework will make this process a lot more easier.
 
 **What is a Framework?**
 
-A framework is a set of tools that help assist us building our website.
+A framework is a set of tools that assist us to build our website.
 
-**Most Popular framework for styling and organising websites is Bootstrap**
+**The most Popular framework for styling and organising websites is Bootstrap**
 
-Bootstrap allows us to focus on the HTML by skip writing the CSS. We do that by using existing CSS files to add styling to our page.
+Bootstrap allows us to focus on the HTML by focusing less on writing the CSS. We do that by using existing CSS files to add styling to our page.
 
 Tutorial
 --------
 
-During this tutorial we will a landing page for Warwick's finest Inn, the page should look similar to this:
+During this tutorial we will build a landing page for a fictional hotel, Warwick's Finest Inn. The page should look similar to this:
 
 - insert picture
 
 This tutorial will be broken down into the following parts:
 - Setting up the HTML
-- Setting up Bootstrap (using CDN)
-- Centering Content using ``` container ``` class
-- Difference betwwen ``` container ``` and ``` container-fluid```
-- Grid: columns and rows ```col-md-*```, ```row```
-- Typography Classes: ```lead``` , ```text-*```
-- Glyphicons: ```<i></i>```, ```glyphicon```
+- Setting up Bootstrap (using a CDN)
+- Centering Content using `container` class
+- Difference between `container` and `container-fluid`
+- Grid: columns and rows `col-md-*`, `row`
+- Typography Classes: `lead` , `text-*`
+- Glyphicons: `<i></i>`, `glyphicon`
 - Well and Buttons
 - Nav Bar
 
