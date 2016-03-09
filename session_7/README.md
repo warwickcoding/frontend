@@ -426,11 +426,11 @@ Nav Bar
 
 ```
 <div class="container">
-      <a href="" class="navbar-brand"> WarwickInn </a>
-      <ul>
-        <li href="about.html">About</li>
-        <li href="contact.html">Contact us</li>
-        <li href="review.html">Reviews</li>
+      <a class="navbar-brand" href="" > WarwickInn </a>
+      <ul class="">
+        <li><a href="">About</a></li>
+        <li><a href="">Contact us</a></li>
+        <li><a href="">Reviews</a></li>
       </ul>
 </div>
 ```
@@ -445,5 +445,22 @@ Nav Bar
 
 - We got rid of the bullet points but we still have the links in a list rather on the same line. To do that just like we did with the glyphicon class we need to add another class of ```nav-pills``` to the class of ```nav```
 
+![21](../images/session_7/frontend_session_7-21.png)
+
+- Our navbar is slowly taking shape, now all we need to do is to push the links to the right. to do that we need to add the class of ```navbar-right``` to our ```ul``` element.
+
+![22](../images/session_7/frontend_session_7-22.png)
+
+- Great, we are nearly done we just need to give our navbar a little shadow, to do that we add ```navbar``` and ```navbar-default```to our container class.
+
+![23](../images/session_7/frontend_session_7-23.png)
+
+- WOHOO !! It's done, hope you have enjoyed the tutorial and don't forget to go through the exercises.
+
 Exercises
 ---------
+1. Create a footer for our website. Check out the Bootstrap documentation to see how to do it.
+
+2. Go to the documentation and try to use as many Bootstrap components as you can.
+
+3. Redo the web page from the previous session using Bootstrap
