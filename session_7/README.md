@@ -54,17 +54,18 @@ This tutorial will be broken down into the following parts:
 - Nav Bar
 
 
-**Remember! Don't copy and paste**
+**Remember! Don't copy and paste**, you will learn way more by doing this step by step 😀
 
 
 Setting up the HTML
 -------------------
 Just like we said before the first step to create any web page would be to first setup its structure using HTML.
 
-- create a directory and name it ```session_7```
-- create a file in the directory ```session_7``` and name it ```index.html```
+- create a directory and name it `session_7`
+- create a file in the directory, and name it `index.html`
 - In the empty HTML file insert the following code:
-```
+
+```html
 <!DOCTYPE html>
 <html>
   <head>
@@ -84,6 +85,7 @@ Just like we said before the first step to create any web page would be to first
   </body>
 </html>
 ```
+
 - The page should look like something like this:
 
 ![1](../images/session_7/frontend_session_7-1.png)
@@ -98,13 +100,13 @@ There are two ways to setup Bootstrap:
 - Downloading Bootstrap files to your machine
 - Use CDN
 
-you must be asking yourself, **What is CDN?**
+You must be asking yourself, **What is a CDN?**
 
-**CDN** stands for **C** ontent **D** elivery **N** etwork, which means that instead of downloading Bootstrap files we will use an external server to host all of the Bootstrap files. This way we don't need to worry about someone editing the original files of Bootstrap.
+**CDN** stands for **C**ontent **D**elivery **N**etwork, which means that instead of downloading Bootstrap files we will use an external server to host all of the Bootstrap files. This way we don't need to worry about someone editing the original files of Bootstrap.
 
 In this tutorial we will use a CDN to setup Bootstrap and this is since we have no intention in editing the CSS files Bootstrap offers.
 
-In order to setup Bootstrap in our HTML file we first need to copy the following code:
+In order to setup Bootstrap in our HTML file we first need to copy the following code, found at [Bootstrap's Getting Started page](http://getbootstrap.com/getting-started/):
 
 ```
 <!-- Latest compiled and minified CSS -->
@@ -116,39 +118,40 @@ In order to setup Bootstrap in our HTML file we first need to copy the following
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 ```
+
 - Paste this code into your HTML(any guesses to where you should paste it?)
 - YES, inside the head.
 - The page now should look like this:
 
 ![2](../images/session_7/frontend_session_7-2.png)
 
-- Did you notice any difference? the font has changes so did the styling of the buttons, but nothing major has changes in the structure of the page.
+- Did you notice any difference? The font has changed, so did the styling of the buttons, but nothing major has changes in the structure of the page.
 
 - **Notice**, that we didn't include any CSS ! This is why Bootstrap is so great !
 
 - After we have setup Bootstrap, lets learn how to use Bootstraps containers.
 
-The ``` container ``` Class
----------------------------
+The `container` Class
+---------------------
 
-- In order to make the page look nicer, we would like to center the content in a way that we add margins on both sides of the page preventing the content from wrapping to the very edge of the page.
+- In order to make the page look better, we would like to center the content in a way that we add margins on both sides of the page preventing the content from wrapping to the very edge of the page.
 
-- To do that we need to use the ``` container ``` class from Bootstrap. The ``` container ``` class would give us a fixed width of the page that responds to the current size of the browser window.
+- To do that we need to use the `container` class from Bootstrap. The `container` class would give us a fixed width of the page that responds to the current size of the browser window.
 
-- What does that mean? it means that Bootstrap allows us to build responsive web pages that would respond to the size of the screen.
+- What does that mean? It means that Bootstrap allows us to build responsive web pages that would respond to the size of the screen.
 
-- To do so we need to add a ``` div ``` element with the class of ``` container ``` to our HTML.
+- To do so we need to add a `div` element with the class of `container` to our HTML.
 
-- Add the following code to your ```index.html``` :  ``` <div class="container" ></div> ```  
+- Add the following code to your `index.html` :  `<div class="container" ></div>`
 
 - Your page should look something like that:
 
 ![3](../images/session_7/frontend_session_7-3.png)
 
-- As you can see now, our content is centerted even if we resize the screen.
+- As you can see now, our content is centered even if we resize the screen.
 
-The ``` container-fluid ``` Class
----------------------------------
+The `container-fluid` Class
+---------------------------
 
 - What if we want part of the elements to stretch across the page?
 
