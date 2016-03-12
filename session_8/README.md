@@ -20,4 +20,22 @@ Session 6 was all about linking our knowledge of HTML with CSS in a project that
 
 For those of you that haven't had the chance to complete the tutorials, please feel free to do so before moving on to the next section.
 
+Intro to Flexible box
+---------------------
+
+
+
+Flexbox game
+------------
+
+
+Intro to Github Pages
+---------------------
+Github, for those of you that don't know about it yet, is a `git` repository hosting service that allows developers to collaborate on projects together. Think of it as a Google Drive for your code, well sort of... We are not going to go into how to use it or how to use the technology that it relies on, `git`, as this is outside the scope of this course. I would recommend that you learn how to use `git` and Github, because it is a very important skill to have by any software developer.
+
+
+   https://pages.github.com/
+
+Tutorial on using Github Pages
+------------------------------
 
