@@ -46,7 +46,6 @@ Here are a few of the thousands of websites that are hosted on Github pages:
 
 It is also worth pointing out that with Github pages, you get access to a great and expansive Content Delivery Network ([CDN](https://en.wikipedia.org/wiki/Content_delivery_network)). Which means your content will be loaded much faster anywhere in the world.
 
-
 Tutorial on using Github Pages
 ------------------------------
 
