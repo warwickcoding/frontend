@@ -22,12 +22,16 @@ For those of you that haven't had the chance to complete the tutorials, please f
 
 Intro to Flexible box
 ---------------------
+This is a new area in CSS that we haven't come across yet. Before CSS3, we had to use the block model with floats (covered in Session 5). The flexible block is arguably an easier to use alternative to floats when it comes to positioning elements in a page. This also makes it easier to position child elements within a `div`.
 
 
 
 Flexbox game
 ------------
+In order for us to get up to speed and learn how to use the flexible box, we're going to play a really fun game. If you have ever played the addictive Frogger game, you're definitely going to enjoy this!
+Visit this [website](http://flexboxfroggy.com/) and complete all 24 levels before moving on to the next section. Good luck 🐸🐸🐸
 
+**BONUS**: If you enjoyed the game, then checkout this [tower defense game](http://www.flexboxdefense.com) that will also teach you how to use flex box.
 
 Intro to Github Pages
 ---------------------
