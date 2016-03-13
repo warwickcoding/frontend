@@ -24,7 +24,7 @@ Intro to Flexible box
 ---------------------
 This is a new area in CSS that we haven't come across yet. Before CSS3, we had to use the block model with floats (covered in Session 5). The flexible block is arguably an easier to use alternative to floats when it comes to positioning elements in a page. This also makes it easier to position child elements within a `div`.
 
-
+Understandably, positioning in CSS could be quite annoying and this is why we're learning about this new topic!
 
 Flexbox game
 ------------
@@ -52,4 +52,30 @@ It is also worth pointing out that with Github pages, you get access to a great 
 
 Tutorial on using Github Pages
 ------------------------------
+To host our project on Github, we first need to have some HTML and CSS files that we have previously created, ready for uploading.
+You can use any of the projects that you have built in any of the previous sessions.
 
+After you have decided on which files you would like to use, open a new Chrome tab and visit github.com. Please follow these steps carefully 😊
+
+- Sign in to you Github account
+![sign in](../images/session_8/frontend_session_8-1.png)
+
+- Click on the plus (+) button in the top-right corner and select "New repository"
+
+- Fill in a name for your new repo
+![new repo](../images/session_8/frontend_session_8-2.png)
+
+- Click on the "Initialize this repository with a README"
+
+- Then, click on "Create repository"
+
+- You will then be taken to a page that looks like this:
+![push code](../images/session_8/frontend_session_8-3.png)
+
+- It can be confusing to look at this page for the first time. Don't worry, we are only concerned with a few buttons on this page.
+
+- Please click on the "Branch:**master**" button, like so:
+![click on branch](../images/session_8/frontend_session_8-3red.png)
+
+- This will show a text area, in which you can type the name of a new branch. In this case, we want to create a branch called "gh-pages". Then, click on the "Create branch: gh-pages" button.
+![create gh-pages branch](../images/session_8/frontend_session_8-4.png)
