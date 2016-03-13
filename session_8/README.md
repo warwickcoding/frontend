@@ -79,3 +79,31 @@ After you have decided on which files you would like to use, open a new Chrome t
 
 - This will show a text area, in which you can type the name of a new branch. In this case, we want to create a branch called "gh-pages". Then, click on the "Create branch: gh-pages" button.
 ![create gh-pages branch](../images/session_8/frontend_session_8-4.png)
+
+- As simple as that, we now have a page that is live on the following URL: `yourgithubusername.github.io/repositoryname`. Obviously, that page is not going to show anything because we still have not added any HTML or CSS.
+
+- Also, notice that our branch is not `master` anymore, it is now `gh-pages`, as shown in red:
+![branch: gh-pages](../images/session_8/frontend_session_8-5.png)
+
+- Next up, click on "New File". This will bring up:
+![create file](../images/session_8/frontend_session_8-6.png)
+
+- Make sure to name your main HTML file as `index.html`! Then proceed to paste the code from your project that you would like to publish.
+![paste HTML](../images/session_8/frontend_session_8-7.png)
+
+- After pasting your HTML into the big text area, scroll to the bottom of the page and type in a commit message. You could simply type the suggested message, and then click on the green "Commit new file" button.
+![commit html](../images/session_8/frontend_session_8-8.png)
+
+- After you commit, wait for 20 seconds and then visit `yourgithubusername.github.io/repositoryname`, and appropriately place your username and repository name inside this URL. When I visit the URL for my project, this is what I see:
+![visit page](../images/session_8/frontend_session_8-9.png)
+
+- You should see the HTML outline of you page
+
+- Go back to the repository and add a new file. This time we are adding the CSS. Same thing with the "commit" at the bottom 👇
+![add css](../images/session_8/frontend_session_8-10.png)
+
+- And don't forget to link your HTML and CSS together
+![link css](../images/session_8/frontend_session_8-11.png)
+![commit css](../images/session_8/frontend_session_8-12.png)
+
+- After Adding the HTML, CSS and linking them together, visit your live page to see the changes. You can open this website on any device :)
