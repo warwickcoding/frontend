@@ -107,3 +107,20 @@ After you have decided on which files you would like to use, open a new Chrome t
 ![commit css](../images/session_8/frontend_session_8-12.png)
 
 - After Adding the HTML, CSS and linking them together, visit your live page to see the changes. You can open this website on any device :)
+![final page](../images/session_8/frontend_session_8-13.png)
+
+**Important Information**:
+- If you want to make any changes to your website, you should simply edit the file and then make sure you commit your changes!
+- It would be a good idea to change your default branch to `gh-pages` from the repo's settings. Under the branches tab, changes the default to `gh-pages` and then update it.
+- This is the "easy" way to make use of Github Pages. If you would like to learn how to properly use `git` and the command line, let me know and I'll point you in the right direction.
+
+
+Course Complete
+---------------
+I hope you enjoyed the course! Thank you all so much for being a part of this!
+
+Please don't hesitate to ask me any questions you have, even if the course is over, I'll still be on Slack.
+On a closing note, I truly hope that you will continue to code and I look forward to seeing all the crazy stuff that you will build!
+
+Thanks,
+Zaid and Fadi
