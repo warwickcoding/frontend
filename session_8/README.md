@@ -1,4 +1,5 @@
-## Frontend Session 8
+Frontend Session 8
+==================
 
 **Session Navigation:**
 
@@ -122,5 +123,6 @@ I hope you enjoyed the course! Thank you all so much for being a part of this!
 Please don't hesitate to ask me any questions you have, even if the course is over, I'll still be on Slack.
 On a closing note, I truly hope that you will continue to code and I look forward to seeing all the crazy stuff that you will build!
 
-Thanks,
-Zaid and Fadi
+Thanks for being amazing!
+
+*Zaid and Fadi*
