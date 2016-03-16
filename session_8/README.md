@@ -6,7 +6,7 @@ Frontend Course Session 8
 
 Session outline:
 - Completing session 6 & 7 tutorials
-- Introduction to the flex-box
+- Introduction to the flexible box
 - Flex-box game
 - Introduction to Github pages
 - Tutorial for publishing content  with Github pages
